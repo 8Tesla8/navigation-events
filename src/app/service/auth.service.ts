@@ -11,7 +11,7 @@ export class AuthService {
         this._loggin = true;
     }
 
-    public unloging():void{
+    public logOut():void{
         this._loggin = false;
     }
 

@@ -22,8 +22,8 @@ export class LoginComponent {
     this.router.navigate([this.navigationService.getLastNavigationStartUrl()]);
   }
 
-  public unLoging():void{
-    this.authService.unloging();
+  public logOut():void{
+    this.authService.logOut();
 
     this.router.navigate(['/']);
   }
